@@ -1,0 +1,26 @@
+name: Deploy to Hosting
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  deploy:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: SSH and update code
+        run: |
+          sshpass -p ${{ secrets.SSH_PASSWORD }} ssh ${{ secrets.SSH_USER }}@${{ secrets.HOST}} "cd /marketplace/${{ github.repository }} && git pull"
+
+      - name: Build Docker container
+        run: docker-compose -f /docker-compose.yml -d ${{ github.repository }} build
+
+      - name: Run specific service from docker-compose
+        run: docker-compose -f /docker-compose.yml up -d ${{ github.repository }}
+
+      - name: Clean up old Docker images
+        run: docker image prune -f
