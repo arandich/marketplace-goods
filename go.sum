@@ -1,7 +1,7 @@
-github.com/arandich/marketplace-proto v0.0.0-20240414105550-c5e1069ec661 h1:rORTMERQi2ShWjqVaYJs+jyq1G1WIqMRQYH/cC5m/Go=
-github.com/arandich/marketplace-proto v0.0.0-20240414105550-c5e1069ec661/go.mod h1:Vv9GK6Dj4vVLt4Qe105CRRrEZKjEoFcPDCpgTR69llU=
-github.com/arandich/marketplace-sdk v0.0.0-20240413194724-75ba906db5d7 h1:S02fBMuL8wMrp0ASSgX5XuToK3rLCE38iQ7v2Kqq730=
-github.com/arandich/marketplace-sdk v0.0.0-20240413194724-75ba906db5d7/go.mod h1:cH8n7yt2P/rfyKZXz2Hm7aC1TsA771I+/2yBrutpav8=
+github.com/arandich/marketplace-proto v0.0.0-20240414183126-63a479ab504b h1:Xy1aH09Qpph7qF5o4B/1QAiwMVY+I+LKroKqGN9xi1Y=
+github.com/arandich/marketplace-proto v0.0.0-20240414183126-63a479ab504b/go.mod h1:Vv9GK6Dj4vVLt4Qe105CRRrEZKjEoFcPDCpgTR69llU=
+github.com/arandich/marketplace-sdk v0.0.0-20240414183437-a1af24d30efc h1:3JlBDy9SBuOaSrlJ0e+bUcTZCFqdOGAkSfHJRr2dTio=
+github.com/arandich/marketplace-sdk v0.0.0-20240414183437-a1af24d30efc/go.mod h1:LGDB9eX/h7kWgU/yvmXsVoOTbE36sJBFeNc3jKa53Fo=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
 github.com/beorn7/perks v1.0.1/go.mod h1:G2ZrVWU2WbWT9wwq4/hrbKbnv/1ERSJQ0ibhJ6rlkpw=
 github.com/cespare/xxhash/v2 v2.3.0 h1:UL815xU9SqsFlibzuggzjXhog7bL6oX9BbNZnL2UFvs=
